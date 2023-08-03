@@ -1,0 +1,90 @@
+body {
+    background-image: url("img1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color:transparent;
+    border: 1px solid gray; 
+    border-radius: 8px;
+    margin-top: 130px;
+    
+}
+
+.cen{
+  font-size: 50px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+
+label {
+    width: 30%;
+    min-width: 120px;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 45%;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+  }
+
+#sub1 {
+    margin-top: 20px;
+    width: 25%;
+   margin-left: 20px; 
+  } 
+#sub{
+  margin-top: 20px;
+  width: 25%;
+  
+}
+
+.table1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  background-color:transparent;
+  border: 2px solid gray; 
+  border-radius: 8px;
+  margin-top: 200px;
+  
+  }
+
+#tab{
+    width:70%;
+}
+
+
+#del{
+    color:red;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+#edit{
+    color:blueviolet;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+#save{
+    color:green;
+    margin-left: 50px;
+    border-radius: 8px;
+}
